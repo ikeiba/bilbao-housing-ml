@@ -11,6 +11,7 @@ Machine Learning project on Bilbao housing
 #   Floor: casas o bajos o entreplantas (MIRARLO POR ENCIMA, bajo 0, casa -1) --> Xabi
 
 #   Condition: relacionada con la zona y el precio (CLASSIFICATION) --> David
+#   HECHO: no ha hecho falta hacer classification, ya que todas las casas con valor nulo en esta columna era porque eran #   de obra nueva, asique he sustiuido NA por "Nuevo".
 
 #   Heating: CLASSIFICATION --> Enetz
 
