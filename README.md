@@ -4,7 +4,7 @@ Machine Learning project on Bilbao housing
 
 # DATA CLEANING:
 
-#   Usable square meters: agrupar por zone o neighbourhood, y mirar el porcentaje de cambio entre usable y constructed y aplicarselo a las que no tienen --> Enetz
+#   Usable square meters: agrupar por zone o neighbourhood, y mirar el porcentaje de cambio entre usable y constructed y aplicarselo a las que no tienen (PROBAR LINEAR REGRESSION) --> Enetz
 
 #   Exterior: las que son nuevas son exterior, el resto CLASSIFICATION --> Gonzalo
 
@@ -19,7 +19,7 @@ Machine Learning project on Bilbao housing
 
 #   Consumption/emision values: mirar las que tienen etiquetas y ponerles la mitad del rango --> Xabi
 
-#   Consumption/emision labels: VAMOS A USAR PARA HACER CLASSIFICATION --> Iker
+#   Consumption/emission labels: VAMOS A USAR PARA HACER CLASSIFICATION --> Iker
 
 
 # CLASIFICATION:
