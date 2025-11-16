@@ -23,17 +23,23 @@ Machine Learning project on Bilbao housing
 
 ## Classification:
 
-*  
+* Predecir zona de la casa
+
+* Si lo anterior funciona, predecir barrio de la casa también
+
+* Durante el data cleaning, hecho para las labels
 
 
 ## Regression:
 
-* 
+* Predecir precio de la casa: ir probando diferentes combinaciones, para ver cual es la informacion minima necesaria, ver el peso de cada variable para predecir el precio
+
+* Durante el data cleaning, hecho para el año
 
 
 ## Clustering:
 
-* 
+* Diferentes tipos de inmobiliarias, diferentes tipos de casas, 
 
 
 
