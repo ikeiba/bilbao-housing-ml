@@ -21,25 +21,24 @@ Machine Learning project on Bilbao housing
 * Consumption/emission labels: VAMOS A USAR PARA HACER CLASSIFICATION --> Iker
 
 
+CADA UNO HACER SU NOTEBOOK
+
 ## Classification:
 
-* Predecir zona de la casa
+* Predecir zona de la casa --> Si lo anterior funciona, predecir barrio de la casa también (IKER)
 
-* Si lo anterior funciona, predecir barrio de la casa también
-
-* Durante el data cleaning, hecho para las labels
-
+* Estado de la casa: buen estado o a reformar (XABI)
 
 ## Regression:
 
-* Predecir precio de la casa: ir probando diferentes combinaciones, para ver cual es la informacion minima necesaria, ver el peso de cada variable para predecir el precio
-
-* Durante el data cleaning, hecho para el año
+* Predecir precio de la casa: ir probando diferentes combinaciones, para ver cual es la informacion minima necesaria, ver el peso de cada variable para predecir el precio (DAVID)
 
 
 ## Clustering:
 
-* Diferentes tipos de inmobiliarias, diferentes tipos de casas, 
+* Diferentes tipos de inmobiliarias, diferentes tipos de casas, diferentes tipos de barrios (GONZALO)
 
+## Deep Learning:
 
+* Coger la descripcion de las casas y hacer algo con ellas (mirar palabras clave, palabras usadas en casas mas caras...) (ENETZ)
 
