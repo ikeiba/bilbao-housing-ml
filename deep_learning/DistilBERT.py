@@ -19,7 +19,7 @@ from transformers import (
 
 FILE_PATH = r"data\cleaned\deep_learning_data.csv"
 MODEL_CHECKPOINT = "distilbert-base-uncased"
-RANDOM_STATE = 42
+RANDOM_STATE = 100
 
 MAX_TOKEN_LENGTH = 512 
 NUM_TRAIN_EPOCHS = 20  
@@ -146,7 +146,7 @@ def compute_metrics(eval_pred):
     # Using 'weighted' or 'binary' is fine here. 'weighted' handles potential imbalance better in reporting.
     f1 = f1_metric.compute(predictions=predictions, references=labels, average="weighted")
     
-    return {**acc, **f1}
+    return {**acc, **f1}  # type: ignore
 
 
 # --- 5. Training Arguments and Trainer Setup ---
