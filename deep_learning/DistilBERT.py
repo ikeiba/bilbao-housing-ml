@@ -52,8 +52,6 @@ try:
          df[LABEL_COLUMN_NAME] = df[LABEL_COLUMN_NAME].astype(int) 
 
     # --- SAFETY CHECK: Ensure data only contains 0 and 1 ---
-    # If your CSV still has '2', this filters them out to prevent crashes.
-    # If you intend to map '2' to '1', you should do that before this step.
     df = df[df[LABEL_COLUMN_NAME].isin([0, 1])]
 
     # 2.1. Split data (70% Train, 15% Val, 15% Test)
@@ -62,7 +60,7 @@ try:
 
     print(f"Original Train size: {len(train_df)}")
 
-    # --- ➡️ OVERSAMPLING THE TRAINING DATA ---
+    # --- OVERSAMPLING THE TRAINING DATA ---
     print("\n⚖️  Applying Oversampling to Training Data...")
     
     # 1. Find the count of the majority class
