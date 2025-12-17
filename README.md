@@ -36,7 +36,7 @@ CADA UNO HACER SU NOTEBOOK
 
 ## Clustering:
 
-* Diferentes tipos de inmobiliarias, diferentes tipos de casas, diferentes tipos de barrios (GONZALO)
+* Diferentes tipos de inmobiliarias, diferentes tipos de casas, diferentes tipos de barrios... (GONZALO)
 
 ## Deep Learning:
 
