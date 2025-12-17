@@ -61,7 +61,7 @@ try:
     print(f"Original Train size: {len(train_df)}")
 
     # --- OVERSAMPLING THE TRAINING DATA ---
-    print("\n⚖️  Applying Oversampling to Training Data...")
+    print("\n  Applying Oversampling to Training Data...")
     
     # 1. Find the count of the majority class
     class_counts = train_df[LABEL_COLUMN_NAME].value_counts()
@@ -141,7 +141,7 @@ def compute_metrics(eval_pred):
     predictions = np.argmax(logits, axis=-1)
     
     acc = metric.compute(predictions=predictions, references=labels)
-    # Using 'weighted' or 'binary' is fine here. 'weighted' handles potential imbalance better in reporting.
+
     f1 = f1_metric.compute(predictions=predictions, references=labels, average="weighted")
     
     return {**acc, **f1}  # type: ignore
@@ -200,11 +200,10 @@ true_labels = predictions_output.label_ids
 # 2. Print the Classification Report
 print("\n🔍 CLASSIFICATION REPORT (Validation Set):")
 
-# --- CHANGED: Updated target names to match NO / YES ---
 print(classification_report(true_labels, preds, target_names=["NO", "YES"]))
 
 # 3. Save the final best model
 SAVE_PATH = "./deep_learning/final_distilbert_urgency_model"
 trainer.save_model(SAVE_PATH)
 tokenizer.save_pretrained(SAVE_PATH)
-print(f"\n✅ Model and Tokenizer saved to '{SAVE_PATH}'")
+print(f"\nModel and Tokenizer saved to '{SAVE_PATH}'")
