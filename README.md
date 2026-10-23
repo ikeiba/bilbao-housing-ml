@@ -225,8 +225,8 @@ Implemented in [`clustering/clustering.ipynb`](clustering/clustering.ipynb) to d
 
 This project was developed for the Machine Learning course at the **University of Deusto** (Academic Year 2024–2025):
 
-- **David Rodríguez** ([@Davidrs05](https://github.com/Davidrs05)) — Price Regression Pipeline, Year Imputation Regression, Optuna & SHAP evaluation.
-- **Enetz Quintana** ([@EnetzUni](https://github.com/EnetzUni)) — Usable Area Imputation Analysis, Deep Learning & NLP Roadmap.
+- **David Reguera** ([@Davidrs05](https://github.com/Davidrs05)) — Price Regression Pipeline, Year Imputation Regression, Optuna & SHAP evaluation.
+- **Enetz Quindimil** ([@EnetzUni](https://github.com/EnetzUni)) — Usable Area Imputation Analysis, Deep Learning & NLP Roadmap.
 - **Gonzalo Iglesias** ([@gonzaloiglesias](https://github.com/gonzaloiglesias)) — Market Clustering Pipeline (DBSCAN + KNN Outlier Refinement), Exterior Imputation.
 - **Iker Ibarrola** ([@ikeiba](https://github.com/ikeiba)) — Scraper Architecture, Multi-class Zone Classification (LightGBM, Optuna, ALE/SHAP), Energy Label Classification.
 - **Xabier Villa** ([@XabiVii](https://github.com/XabiVii)) — Floor Level Parsing, Emission/Consumption Imputation, Property Condition Roadmap.
