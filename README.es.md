@@ -225,8 +225,8 @@ Desarrollada en [`clustering/clustering.ipynb`](clustering/clustering.ipynb) par
 
 Proyecto desarrollado para la asignatura de Machine Learning en la **Universidad de Deusto** (Curso 2024–2025):
 
-- **David Rodríguez** ([@Davidrs05](https://github.com/Davidrs05)) — Pipeline de Regresión de Precios, Imputación del Año de Construcción, Optimización con Optuna y Análisis SHAP/ALE.
-- **Enetz Quintana** ([@EnetzUni](https://github.com/EnetzUni)) — Análisis de Imputación de Metros Útiles, Diseño del Roadmap de Deep Learning / NLP.
+- **David Reguera** ([@Davidrs05](https://github.com/Davidrs05)) — Pipeline de Regresión de Precios, Imputación del Año de Construcción, Optimización con Optuna y Análisis SHAP/ALE.
+- **Enetz Quindimil** ([@EnetzUni](https://github.com/EnetzUni)) — Análisis de Imputación de Metros Útiles, Diseño del Roadmap de Deep Learning / NLP.
 - **Gonzalo Iglesias** ([@gonzaloiglesias](https://github.com/gonzaloiglesias)) — Pipeline de Clustering del Mercado Inmobiliario (DBSCAN + Reasignación KNN), Imputación de Exterior/Interior.
 - **Iker Ibarrola** ([@ikeiba](https://github.com/ikeiba)) — Arquitectura del Scraper, Clasificación Multiclase de Zonas (LightGBM, Optuna, ALE/SHAP), Clasificación de Etiquetas Energéticas.
 - **Xabier Villa** ([@XabiVii](https://github.com/XabiVii)) — Procesamiento y Parsing de Plantas, Imputación de Emisiones/Consumo, Roadmap de Clasificación del Estado de Conservación.
